@@ -1,0 +1,67 @@
+# ========== 构建产物 ==========
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+bld/
+x64/
+x86/
+*.pdb
+*.ilk
+*.meta
+*.obj
+*.cache
+*.binlog
+Generated\ Files/
+
+# ========== Visual Studio ==========
+.vs/
+*.user
+*.suo
+*.rsuser
+*.userosscache
+*.sln.docstates
+*.userprefs
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# ========== NuGet ==========
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+# ========== 发布 / ClickOnce ==========
+publish/
+*.publish.xml
+*.pubxml
+*.publishproj
+PublishScripts/
+
+# ========== WPE64 项目专属 ==========
+# 助手工作目录（不参与版本管理）
+.workbuddy/
+# 单文件打包临时产物
+package/
+# 运行时数据库缓存（含账号等敏感数据，绝不提交）
+WPE64Cache/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+# 系统缩略图缓存
+Thumbs.db
+
+# ========== 其他 ==========
+*.tmp
+~$*
+*~
+*.log
+node_modules/
+__pycache__/
+*.pyc
