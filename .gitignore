@@ -7,8 +7,6 @@
 [Ll]og/
 [Ll]ogs/
 bld/
-x64/
-x86/
 *.pdb
 *.ilk
 *.meta
@@ -16,6 +14,8 @@ x86/
 *.cache
 *.binlog
 Generated\ Files/
+
+# 注：x64/、x86/ 目录是 SQLite.Interop.dll 等运行时必需的原生库，需随项目提交，不忽略
 
 # ========== Visual Studio ==========
 .vs/
